@@ -1,0 +1,25 @@
+[image_inference]
+source_image_path = ./dataset/image/00000001.jpg
+target_image_path = ./dataset/image/00000001.jpg
+result_image_save_path = ./result/1_1.jpg
+
+[video_inference]
+source_image_path = ./dataset/image/002.jpg
+target_video_path = ./dataset/video/000.mov
+target_frames_path = ./dataset/target_frames/
+result_frames_path = ./dataset/result_frames/
+result_video_save_path = ./result/result.avi
+fps = 30
+
+
+[train]
+dataset_path = ./dataset/train/
+
+[faceshifter_server]
+port = 7888
+
+[faceshifter_client]
+url = http://127.0.0.1:7888/faceshifter
+source_image_path = ./dataset/image/001.jpg
+target_image_path = ./dataset/image/002.jpg
+result_image_save_path = ./result/result.jpg

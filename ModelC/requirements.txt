@@ -1,0 +1,8 @@
+Flask
+flask_cors
+numpy
+opencv-python
+torch
+torchvision
+requests
+
