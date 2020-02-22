@@ -24,8 +24,8 @@ If you want to train the model, you have to install apex, you can download and i
 
 ## How to use FaceShifter
 ### Download Pre-trained Weights
-* URL for download pre-trained weights of arcface: , then put it to the dirctory "face_modules/"
-* URL for download pre-trained weights of AEI-Net: , then put it to the dirctory "saved_models/"
+* URL for download pre-trained weights of arcface: https://drive.google.com/open?id=1dxGS4izQ2QZ5LaeoskQMe_KFV-er5msL, then put it to the dirctory "face_modules/"
+* URL for download pre-trained weights of AEI-Net: https://drive.google.com/open?id=1-M6GcxnkgEursxMWllTOLrZQ_BDTUv0r, then put it to the dirctory "saved_models/"
 ### image_inference
 You can swap face of two images. One is source image and another is target image
 * open config.txt
