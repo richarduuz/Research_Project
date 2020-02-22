@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/xml_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:onClick="getWifiInformation"
+        android:text="click me to show wifi info"
+        app:layout_constraintBottom_toTopOf="@+id/xml_button2"
+        app:layout_constraintTop_toBottomOf="@+id/xml_wifi_info"
+        app:layout_constraintVertical_bias="0.994"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/xml_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:onClick="getWifiList"
+        android:text="click me to show wifi list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/xml_wifi_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wifi info will show after click"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
