@@ -21,3 +21,34 @@ You can install these packages by pip
 pip install -r requirements.txt
 ```
 If you want to train the model, you have to install apex, you can download and install from the Nvidia/apex: https://github.com/NVIDIA/apex
+
+## How to use FaceShifter
+### Download Pre-trained Weights
+* URL for download pre-trained weights of arcface: , then put it to the dirctory "face_modules/"
+* URL for download pre-trained weights of AEI-Net: , then put it to the dirctory "saved_models/"
+### image_inference
+You can swap face of two images. One is source image and another is target image
+* open config.txt
+* set parameters of "source_image_path", "target_image_path", and "result_image_save_path" in section [image_inference]
+* run `python image_inference.py`
+### video_inference
+You can swap the faces in video by one source image and one target video
+* open config.txt
+* set parameters of "source_image_path", "target_video_path", "target_frames_path", "result_frames_path", "result_video_save_path", and "fps" in section [video_inference]
+* run `python video_inference.py`
+### train
+You can train the model
+* open config.txt
+* set parameters of "dataset_path" in section [train]
+* run `python train.py`
+* You can modify parameters of BatchSize, epoch,learning rate in train.py
+### faceshifter_server
+You can deploy model server.
+* open config.txt
+* set parameters of "port" in section [faceshifter_server]
+* run `python faceshifter_server.py`
+### faceshifter_client
+When you deploy the server, you can test it by python-version client
+* open config.txt
+* set parameters of "url", "source_image_path", "target_image_path", "result_image_save_path" in section [faceshifter_client]
+* run `python faceshifter_client.py`
