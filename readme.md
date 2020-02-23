@@ -13,6 +13,9 @@ In this repo, there are 3 models we referenced from 3 authors.
 
 **Model C**: [FaceShifter](https://github.com/taotaonice/FaceShifter)
 
+## Image Results by Each Model
+
+![](https://colab.research.google.com/github/richarduuz/Research_Project/blob/master/model A - Corss Translation.jpg)
 
 ## What you can try
 Feel free to give these models a try if you are interested. Simply click on the following links and try them on Colab. Remember to set the hardware accelerator in the notebook setting as GPU. More details are in directory of each model and their notebook. You don't need to train any model before trying them.
