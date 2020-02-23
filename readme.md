@@ -7,7 +7,7 @@ Our project aims to find a suitable DeepFake model, in terms of visdual quality,
 ## Code Reference
 In this repo, there are 3 models we referenced from 3 authors.
 
-**Model A**: [GitHub Pages](https://pages.github.com/).  **(need name and address)**
+**Model A**: [GitHub Pages](https://github.com/wuhuikai/FaceSwap).
 
 **Model B**: [Few-shot face translation](https://github.com/shaoanlu/fewshot-face-translation-GAN).
 
