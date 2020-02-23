@@ -15,7 +15,7 @@ In this repo, there are 3 models we referenced from 3 authors.
 
 
 ## What you can try
-Feel free to give these models a try if you are interested. Simplely click on the following links and try them on Colab. More details are in directory of each model and their notebook. You don't need to train any model before trying them.
+Feel free to give these models a try if you are interested. Simply click on the following links and try them on Colab. Remember to set the hardware accelerator in the notebook setting as GPU. More details are in directory of each model and their notebook. You don't need to train any model before trying them.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/richarduuz/Research_Project/blob/master/ModelA/ModelA.ipynb) Try **Model A** in Colab Notebook to swap face from source image to target image
 
